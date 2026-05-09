@@ -20,7 +20,7 @@ const facturas = [
     descripcion: "Servicio de acueducto mensual periodo enero 2024",
     numero_id_empresa: "EMP-00123",
     codigo_pago: "ACU-2024-001",
-    valor: 5000,
+    valor: 5,
     impuesto1: 5700,
     segundo_valor: 12000,
     segundo_impuesto: 2280,
