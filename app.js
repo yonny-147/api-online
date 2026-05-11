@@ -4,9 +4,11 @@ const {
   generateBearerToken,
   verifyBearerToken,
 } = require("./middleware/middleware_token");
+const { ipLogger } = require("./middleware/logger");
 
 const app = express();
 app.use(express.json());
+app.use(ipLogger);
 
 // ---------------------------------------------------------------------------
 // Datos mock de facturas
